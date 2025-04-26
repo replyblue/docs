@@ -1,0 +1,35 @@
+name: ReplyBlue Documentation
+logo: /static/logo.png  # (optional) upload your logo later
+favicon: /static/favicon.ico  # (optional) upload your favicon later
+docsLocation: /docs
+
+navigation:
+  - title: Welcome
+    url: /
+
+  - title: Platform Documentation
+    pages:
+      - title: Technical Stack Overview
+        url: /platform-documentation
+      - title: API and Integrations
+        url: /platform-api
+      - title: Infrastructure and Server Access
+        url: /infrastructure-access
+
+  - title: Training Portal
+    pages:
+      - title: Core Messaging
+        url: /core-messaging
+      - title: Sales Training
+        url: /sales-training
+
+  - title: Quick Start Guides
+    pages:
+      - title: Service Continuity Protocol
+        url: /service-continuity
+      - title: Roadmap 2025
+        url: /roadmap-2025
+      - title: Compliance and Contracts
+        url: /compliance
+      - title: FAQs
+        url: /faqs
