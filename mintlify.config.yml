@@ -1,39 +1,36 @@
 branding:
-name: Replyblue Docs
-logo: /static/replybluelogo.png  # (optional) upload your logo later
-favicon: /static/replyblue-logo.ico  # (optional) upload your favicon later
-description: Everything you need to build, scale, and succeed with Replyblue
-theme: dark
-docsLocation: /docs
-
+  title: ReplyBlue Docs
+  favicon: /favicon.svg
+  logo: /images/replybluelogo.png
+  description: Everything you need to build, scale, and succeed with ReplyBlue.
+  socialPreview: /images/social-card.png
+  theme: dark
 
 homepage:
   hero:
-  title: Build with Replyblue
-  description: Learn how to deploy, sell and scale using Replyblue's platform, training, and compliance tools.
-  image: /images/walkingpart2.gif
-  buttonText: Explore the Docs
-  buttonLink: /platform-documentation
-
+    title: Build with ReplyBlue
+    description: Learn how to deploy, sell, and scale using ReplyBlue's platform, training, and compliance tools.
+    image: /images/hero-animation.gif
+    buttonText: Explore the Docs
+    buttonLink: /platform-documentation
 
   features:
+    - title: Platform Infrastructure
+      description: Understand our tech stack, architecture, and API capabilities.
+      icon: server
+      url: /platform-documentation
+    - title: Sales & Messaging Training
+      description: Equip your team with sales scripts, onboarding flows, and messaging strategies.
+      icon: message-circle
+      url: /core-messaging
+    - title: Compliance and Continuity
+      description: Learn our protocols around service uptime, contracts, and client safety.
+      icon: shield
+      url: /compliance
+
+navigation:
   - title: Platform Documentation
-    description: Understand our tech stack, architecture, and API capabilities.
-    icon: server
-    url: /platform-documentation
-    title: Sales & Messaging Training
-    description: Equip with sales scripts, onboarding flows, and messaging strategies.
-    icon: message-circle
-    url: /core-messaging
-
-  - title: Compliance and Continuity 
-    description: Learn our protocols around service uptime, contracts, and client safety. 
-    icon: shield 
-    url: /compliance
-
-    navigation:
-      - title: Platform Documentation
-        pages:
+    pages:
       - title: Technical Stack Overview
         url: /platform-documentation
       - title: API and Integrations
@@ -61,20 +58,15 @@ homepage:
       - title: FAQs
         url: /faqs
 
-  footer:
-    social: 
-      - platform: Github
-        url: https://github.com/replyblue
-      - plaftform: X
-        url: https://x.com/Replybluehq
-      - platform: Instagram
-        url: https://www.instagram.com/replybluehq/
-      - platform: Linkedin
-        url: https://www.linkedin.com/company/replyblue/
-
+footer:
+  social:
+    - platform: github
+      url: https://github.com/replyblue
+    - platform: twitter
+      url: https://twitter.com/replyblue
   copyright: "© 2025 ReplyBlue. All rights reserved."
-  
-  experimental:
+
+experimental:
   ai: true
   feedback: true
   tocDepth: 2
