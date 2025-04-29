@@ -1,14 +1,39 @@
-name: ReplyBlue Documentation
-logo: /static/logo.png  # (optional) upload your logo later
-favicon: /static/favicon.ico  # (optional) upload your favicon later
+branding:
+name: Replyblue Docs
+logo: /static/replybluelogo.png  # (optional) upload your logo later
+favicon: /static/replyblue-logo.ico  # (optional) upload your favicon later
+description: Everything you need to build, scale, and succeed with Replyblue
+theme: dark
 docsLocation: /docs
 
-navigation:
-  - title: Welcome
-    url: /
 
+homepage:
+  hero:
+  title: Build with Replyblue
+  description: Learn how to deploy, sell and scale using Replyblue's platform, training, and compliance tools.
+  image: /images/walkingpart2.gif
+  buttonText: Explore the Docs
+  buttonLink: /platform-documentation
+
+
+  features:
   - title: Platform Documentation
-    pages:
+    description: Understand our tech stack, architecture, and API capabilities.
+    icon: server
+    url: /platform-documentation
+    title: Sales & Messaging Training
+    description: Equip with sales scripts, onboarding flows, and messaging strategies.
+    icon: message-circle
+    url: /core-messaging
+
+  - title: Compliance and Continuity 
+    description: Learn our protocols around service uptime, contracts, and client safety. 
+    icon: shield 
+    url: /compliance
+
+    navigation:
+      - title: Platform Documentation
+        pages:
       - title: Technical Stack Overview
         url: /platform-documentation
       - title: API and Integrations
@@ -22,6 +47,8 @@ navigation:
         url: /core-messaging
       - title: Sales Training
         url: /sales-training
+      - title: Training Videos
+        url: /training-videos
 
   - title: Quick Start Guides
     pages:
@@ -33,3 +60,21 @@ navigation:
         url: /compliance
       - title: FAQs
         url: /faqs
+
+  footer:
+    social: 
+      - platform: Github
+        url: https://github.com/replyblue
+      - plaftform: X
+        url: https://x.com/Replybluehq
+      - platform: Instagram
+        url: https://www.instagram.com/replybluehq/
+      - platform: Linkedin
+        url: https://www.linkedin.com/company/replyblue/
+
+  copyright: "© 2025 ReplyBlue. All rights reserved."
+  
+  experimental:
+  ai: true
+  feedback: true
+  tocDepth: 2
