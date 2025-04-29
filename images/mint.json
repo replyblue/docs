@@ -1,0 +1,53 @@
+{
+    "name": "ReplyBlue Docs",
+    "logo": {
+      "light": "/logo/replyblue-logo.svg",
+      "dark": "/logo/replyblue-logo.svg"
+    },
+    "favicon": "/favicon.svg",
+    "colors": {
+      "primary": "#0F62FE"
+    },
+    "navigation": [
+      {
+        "title": "Get Started",
+        "pages": [
+          { "title": "Welcome to ReplyBlue", "path": "/index" }
+        ]
+      },
+      {
+        "title": "Basics",
+        "pages": [
+          { "title": "Core Messaging", "path": "/core-messaging" },
+          { "title": "Sales Training", "path": "/sales-training" },
+          { "title": "Training Videos", "path": "/training-videos" },
+          { "title": "Service Continuity Protocol", "path": "/service-continuity" },
+          { "title": "Compliance and Contracts", "path": "/compliance" },
+          { "title": "FAQs", "path": "/faqs" }
+        ]
+      },
+      {
+        "title": "Platform Documentation",
+        "pages": [
+          { "title": "Technical Stack Overview", "path": "/platform-documentation" },
+          { "title": "API and Integrations", "path": "/platform-api" },
+          { "title": "Infrastructure and Server Access", "path": "/infrastructure-access" }
+        ]
+      },
+      {
+        "title": "Integrations",
+        "pages": [
+          { "title": "Starter Repo and CRM Integration", "path": "/crm-integration" },
+          { "title": "Slack and Stripe Setup", "path": "/integrations" }
+        ]
+      },
+      {
+        "title": "Policies",
+        "pages": [
+          { "title": "Privacy Policy", "path": "/privacy-policy" },
+          { "title": "Terms of Service", "path": "/terms-of-service" }
+        ]
+      }
+    ]
+  }
+  
