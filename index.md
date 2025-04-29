@@ -1,13 +1,30 @@
-# Welcome to ReplyBlue Docs 🚀
+# 👋 Welcome to ReplyBlue
 
-Everything you need to build, scale, and succeed with ReplyBlue.
+Build better conversations, faster. ReplyBlue helps businesses turn audiences into sales through texting, automation, and AI-powered customer workflows.
+
+![Hero animation](/images/hero-animation.gif)
 
 ---
 
-## Quick Access
+## 📚 What You'll Find Here
 
-- [Platform Documentation](./platform-documentation)
-- [Training Portal](./training-portal)
-- [Quick Start Guides](./quick-start-guides)
+Everything you need to get started, scale your messaging strategy, and manage operations with confidence.
 
-Need help? Contact [hello@replyblue.com](mailto:hello@replyblue.com).
+### 🧱 Basics
+- [Core Messaging](/core-messaging)
+- [Sales Training](/sales-training)
+- [Training Videos](/training-videos)
+- [FAQs](/faqs)
+
+### ⚙️ Platform Documentation
+- [Technical Stack Overview](/platform-documentation)
+- [API and Integrations](/platform-api)
+- [Infrastructure and Server Access](/infrastructure-access)
+
+### 🔌 Integrations
+- [CRM + Slack Integration](/crm-integration)
+- [Stripe & Webhook Setup](/integrations)
+
+---
+
+Need help? [Contact us](mailto:hello@replyblue.com) or visit [replyblue.com](https://replyblue.com).
